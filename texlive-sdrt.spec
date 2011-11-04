@@ -48,6 +48,7 @@ mode, so they work the same in formulae and in text.
 %doc %{_texmfdistdir}/doc/latex/sdrt/README
 %doc %{_texmfdistdir}/doc/latex/sdrt/sdrt-doc.pdf
 %doc %{_texmfdistdir}/doc/latex/sdrt/sdrt-doc.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -58,3 +59,5 @@ mode, so they work the same in formulae and in text.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
