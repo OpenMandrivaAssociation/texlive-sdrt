@@ -6,7 +6,7 @@
 # catalog-version 1.0
 Name:		texlive-sdrt
 Version:	1.0
-Release:	1
+Release:	2
 Summary:	Macros for Segmented Discourse Representation Theory
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/sdrt
