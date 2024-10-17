@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Macros for Segmented Discourse Representation Theory
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/sdrt
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/sdrt
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/sdrt.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/sdrt.doc.r%{version}.tar.xz
